@@ -1,0 +1,54 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background-color: rgb(50, 50, 50);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+.footer-topic {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.home-page,
+.fa,
+.cv-file {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.15s;
+}
+.home-page:hover,
+.fa:hover,
+.cv-file:hover {
+  opacity: 0.6;
+}
+.contact {
+  text-align: center;
+}
+.socials {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-page,
+.cv-file {
+  font-size: 18px;
+}
+.copyright {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+@media (max-width: 735px) {
+  .footer div {
+    font-size: 0;
+  }
+}
